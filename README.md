@@ -2,83 +2,67 @@
 
 # 🚀 LabDoc AI 2.0
 
-### *Automated Practical File Formatting Platform for Engineering Students*
+### *Automated Document Formatting Platform for Practical Files*
 
-<p align="center">
-  <a href="https://lab-doc-ai.vercel.app/">
-    <img src="https://img.shields.io/badge/🔴_Live_Demo-Try_Now-FF0000?style=for-the-badge" />
-  </a>
-  <img src="https://img.shields.io/badge/Next.js-Frontend-black?style=for-the-badge&logo=next.js" />
-  <img src="https://img.shields.io/badge/FastAPI-Backend-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
-  <img src="https://img.shields.io/badge/Python-Processing-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-Cloud_Runtime-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+<p>
+
+<a href="https://lab-doc-ai.vercel.app/">
+<img src="https://img.shields.io/badge/🚀_Live_Demo-Try_Now-FF0000?style=for-the-badge"/>
+</a>
+
+<img src="https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js"/>
+
+<img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white"/>
+
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+
+<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
+
 </p>
 
-### ⚡ Transform practical files into official TCET print-ready documents in seconds.
+### 📱 Mobile-First • 📄 Supports DOCX & PDF • 🏫 Supports All 11 TCET Departments
 
-### 📱 Mobile-First • 🏫 Supports All 11 TCET Departments • 📄 Header • Faculty Table • Watermark • Footer
+### ⚡ Generate official print-ready practical files in seconds with automatic headers, faculty tables, watermarks and footers..
 
 </div>
 
 ---
 
-# ✨ Preview (Watch it in Action)
+---
+
+# 🎥 Demo
 
 <div align="center">
-  <video src="YOUR_LATEST_VIDEO_LINK_HERE" width="280" controls></video>
+  <video src="https://github.com/user-attachments/assets/1e964672-7c13-4dc2-8dcd-706832215e1e" width="280" controls></video>
 </div>
 
-> ⚡ Upload your practical file → Select your department → Choose formatting options → Download a print-ready document in seconds.
+> ⚡Upload → Select Department → Process → Download
 
 ---
 
-# 🚨 The Story Behind LabDoc AI
+# 💡 Why I Built LabDoc AI
 
-Two months ago, I was standing outside a stationery shop with a practical file that was technically complete—but still not ready to print.
+Every engineering student knows the last-minute rush before getting a practical file printed.
 
-The experiment was finished.
+The write-up is complete, but before it can be printed, there's still one frustrating task left—manually formatting the document.
 
-The content was correct.
+Adding official headers, watermarks, faculty tables, footers, and making sure everything is perfectly aligned can easily take several minutes. It's repetitive, time-consuming, and creates unnecessary panic just before practical checking.
 
-But I was still spending valuable time manually fixing headers, watermarks, and formatting just minutes before submission.
+After facing this process again and again, I decided to automate it instead of repeating the same manual work every time.
 
-That 15-minute frustration made me ask one simple question:
+**LabDoc AI** is built specifically for **TCET students**, allowing them to upload their practical file, choose the required formatting options, and generate an official print-ready document in just a few seconds.
 
-> **Why are engineering students still doing this manually?**
-
-So I built a small automation tool for a few classmates.
-
-Honestly, I expected around **10–15 students** to use it.
-
-Instead, within **48 hours**, over **164 students** tried it, generating **365+ page views** and **2,300+ LinkedIn impressions**.
-
-That response made one thing clear.
-
-The problem wasn't just mine.
-
-It was shared by students across the college.
-
-The only limitation?
-
-Version 1 supported only the **Computer Engineering department**.
-
-So LabDoc AI was completely rebuilt from the ground up.
-
-Today, **LabDoc AI 2.0** supports **all 11 engineering departments at TCET**, allowing students to prepare official practical files directly from their phones in just a few seconds.
-
-No more last-minute formatting panic.
-
-Just **Upload → Select Options → Process → Download.**
+> The goal was simple: spend less time formatting documents and more time focusing on practical work.
 
 ---
 
-## 🌟 What's New in LabDoc AI 2.0
+## 🌟 Key Features
 
 LabDoc AI has evolved from a simple formatting utility into a complete **document automation platform** built specifically for TCET students.
 
 ---
 
-### 🏫 1. College-Wide Multi-Department Support
+### 🏫 1. Supports 11 Departments at TCET
 
 LabDoc AI now supports **all 11 engineering departments** at TCET.
 
@@ -100,38 +84,19 @@ Supported Departments:
 
 ---
 
-### 👨‍🏫 2. Smart Faculty Table Generator
+### 📱 2. Supports DOCX or PDF
 
-No more manually creating or editing faculty approval tables.
+Upload either a DOCX or PDF practical file.
 
-LabDoc AI automatically inserts the **official department-specific faculty table**, ensuring documents follow the required college format without additional editing.
+The processing pipeline automatically selects the appropriate engine and generates a print-ready document while preserving the original content.
 
----
+### 📱 3. Official Formatting
 
-### ✒️ 3. Automatic Footer & Pagination
-
-Instead of manually typing your details on every page, simply enable **"Add Document Footer"** and enter your information once.
-
-The engine automatically expands the document canvas and inserts:
-
-`Name | Class | Roll Number | Auto Page Number`
-
-without disturbing the existing document layout.
-
----
+Automatically applies official department headers, faculty tables, watermarks and custom footers without requiring any manual formatting.
 
 ### 📱 4. Mobile-First Experience
 
-LabDoc AI is designed to work seamlessly on mobile devices.
-
-The interface follows a **Progressive Disclosure** workflow that guides users step-by-step:
-
-1. Upload your file
-2. Select your department
-3. Choose formatting options
-4. Process & download
-
-This allows students to generate print-ready documents directly from their phones—even while standing outside the print shop.
+Designed to work seamlessly on mobile devices, allowing students to prepare practical files directly from their phones whenever required.
 
 # 🔥 Core Engine Features
 
@@ -231,6 +196,14 @@ The pipeline supports both DOCX and PDF workflows while handling large files rel
 | 📢 LinkedIn Impressions | **2,300+** |
 | 🏫 Departments Supported (V2) | **11** |
 
+## 🚀 From Version 1 to Version 2
+
+LabDoc AI started as a small automation tool built for a single department.
+
+After receiving feedback from early users, the platform was completely re-engineered into Version 2, expanding support to all 11 engineering departments at TCET while introducing automatic faculty tables, intelligent footer generation, improved document processing, mobile-first workflows and a scalable backend architecture.
+
+The project evolved from solving one classroom problem into a campus-wide document automation platform.
+
 # ⚙️ Advanced System Architecture
 
 ```mermaid
@@ -289,6 +262,18 @@ flowchart TD
 | **Document Processing** | python-docx, PyMuPDF (fitz), Pillow (PIL) |
 | **Document Conversion** | LibreOffice Headless |
 | **Deployment** | Vercel, Docker, Render |
+
+## 🧩 Engineering Challenges
+
+Building LabDoc AI required solving more than document formatting.
+
+Some of the engineering challenges included:
+
+- Scaling from 1 department to 11 departments
+- Deploying Dockerized LibreOffice on Render's free tier
+- Optimizing memory usage during document conversion
+- Supporting both DOCX and PDF processing pipelines
+- Maintaining layout accuracy while injecting headers, faculty tables and footers
 
 ---
 
