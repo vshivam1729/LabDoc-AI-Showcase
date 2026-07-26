@@ -28,8 +28,6 @@
 
 ---
 
----
-
 # 🎥 Demo
 
 <div align="center">
@@ -60,7 +58,6 @@ After facing this process again and again, I decided to automate it instead of r
 
 LabDoc AI has evolved from a simple formatting utility into a complete **document automation platform** built specifically for TCET students.
 
----
 
 ### 🏫 1. Supports 11 Departments at TCET
 
@@ -103,6 +100,7 @@ Automatically applies official department headers, faculty tables, watermarks an
 Designed to work seamlessly on mobile devices, allowing students to prepare practical files directly from their phones whenever required.
 
 ---
+
 
 # 🔥 Core Engine Features
 
