@@ -22,7 +22,7 @@
 
 ### 📱 Mobile-First • 📄 Supports DOCX & PDF • 🏫 Supports All 11 TCET Departments
 
-### ⚡ Generate official print-ready practical files in seconds with automatic headers, faculty tables, watermarks and footers..
+### ⚡ Generate official print-ready practical files in seconds with automatic headers, watermarks, faculty tables and footers..
 
 </div>
 
@@ -36,7 +36,7 @@
   <video src="https://github.com/user-attachments/assets/1e964672-7c13-4dc2-8dcd-706832215e1e" width="280" controls></video>
 </div>
 
-> ⚡Upload → Select Department → Process → Download
+> ⚡ Upload → Select Department → Process → Download
 
 ---
 
@@ -52,7 +52,7 @@ After facing this process again and again, I decided to automate it instead of r
 
 **LabDoc AI** is built specifically for **TCET students**, allowing them to upload their practical file, choose the required formatting options, and generate an official print-ready document in just a few seconds.
 
-> The goal was simple: spend less time formatting documents and more time focusing on practical work.
+>**The goal was simple: spend less time formatting documents and more time focusing on practical work.**
 
 ---
 
@@ -84,58 +84,56 @@ Supported Departments:
 
 ---
 
-### 📱 2. Supports DOCX or PDF
+### 📂 2. Supports DOCX & PDF
 
 Upload either a DOCX or PDF practical file.
 
 The processing pipeline automatically selects the appropriate engine and generates a print-ready document while preserving the original content.
 
-### 📱 3. Official Formatting
+---
+
+### 🪄 3. Official Formatting
 
 Automatically applies official department headers, faculty tables, watermarks and custom footers without requiring any manual formatting.
+
+---
 
 ### 📱 4. Mobile-First Experience
 
 Designed to work seamlessly on mobile devices, allowing students to prepare practical files directly from their phones whenever required.
 
+---
+
 # 🔥 Core Engine Features
 
 ### 📏 Smart Header Injection Engine
 
-The document engine safely parses the internal DOCX XML structure, removes outdated or incompatible headers, and injects the latest **official TCET department header** without disturbing the existing document layout.
+Parses the DOCX structure, removes outdated headers, and inserts the latest official TCET department header while preserving the document layout.
 
 **Highlights**
 
 * Automatic legacy header replacement
-* Department-wise dynamic header routing
-* Margin geometry compensation to prevent content shifting
+* Department-wise dynamic header selection
+* Automatic margin adjustment to prevent content shifting
 * Preserves original document formatting
 
 ---
 
 ### 👨‍🏫 Smart Faculty Table Generator
 
-Faculty approval tables are generated automatically based on the selected department.
-
-Instead of manually creating or editing tables before printing, LabDoc AI inserts the **official department-specific faculty table** with proper alignment and spacing.
+Automatically inserts the official TCET faculty evaluation table into the document without affecting existing content.
 
 **Highlights**
 
-* Official TCET faculty table layouts
-* Department-aware table selection
-* Automatic placement without affecting document content
+- Automatic faculty table insertion
+- Proper alignment and spacing
+- Preserves the original document layout
 
 ---
 
 ### ✒️ Intelligent Footer & Pagination Engine
 
-Generate professional document footers with a single click.
-
-The engine dynamically expands the document canvas and inserts:
-
-`Name • Class • Roll Number • Auto Page Number`
-
-while maintaining proper spacing and preventing content overlap.
+Automatically adds a footer containing Name, Class, Roll Number and Page Number while maintaining proper document spacing.
 
 **Highlights**
 
@@ -147,9 +145,7 @@ while maintaining proper spacing and preventing content overlap.
 
 ### 💧 Smart Watermark Processing
 
-The watermark engine intelligently analyses document pixels before applying the official college watermark.
-
-Instead of simply overlaying an image, the engine preserves document readability while maintaining professional print quality.
+Applies the official TCET watermark while preserving document readability and print quality.
 
 **Highlights**
 
@@ -162,16 +158,13 @@ Instead of simply overlaying an image, the engine preserves document readability
 
 ### 📄 Cloud PDF Processing Pipeline
 
-LabDoc AI automatically converts and processes documents using a Dockerized LibreOffice runtime.
-
-The pipeline supports both DOCX and PDF workflows while handling large files reliably.
+Processes DOCX and PDF files using a Dockerized LibreOffice runtime for reliable document conversion.
 
 **Highlights**
 
 * Reliable DOCX → PDF conversion
 * Dockerized headless LibreOffice
 * Supports DOCX and PDF workflows
-* Built-in compatibility handling for complex documents
 
 ---
 
@@ -196,13 +189,17 @@ The pipeline supports both DOCX and PDF workflows while handling large files rel
 | 📢 LinkedIn Impressions | **2,300+** |
 | 🏫 Departments Supported (V2) | **11** |
 
+---
+
 ## 🚀 From Version 1 to Version 2
 
 LabDoc AI started as a small automation tool built for a single department.
 
 After receiving feedback from early users, the platform was completely re-engineered into Version 2, expanding support to all 11 engineering departments at TCET while introducing automatic faculty tables, intelligent footer generation, improved document processing, mobile-first workflows and a scalable backend architecture.
 
-The project evolved from solving one classroom problem into a campus-wide document automation platform.
+The project evolved from solving a small classroom problem into a scalable campus-wide document automation platform.
+
+---
 
 # ⚙️ Advanced System Architecture
 
@@ -249,6 +246,8 @@ flowchart TD
     O --> P[⬇️ Download Response]
 ```
 
+---
+
 # 🛠️ Technology Stack
 
 <p align="center">
@@ -262,6 +261,8 @@ flowchart TD
 | **Document Processing** | python-docx, PyMuPDF (fitz), Pillow (PIL) |
 | **Document Conversion** | LibreOffice Headless |
 | **Deployment** | Vercel, Docker, Render |
+
+---
 
 ## 🧩 Engineering Challenges
 
@@ -281,7 +282,7 @@ Some of the engineering challenges included:
 
 **Shivam Vishwakarma**
 
-🚀 3rd Year Computer Engineering Student (TCET)
+🎓 Computer Engineering Student @ TCET
 
 💻 Full Stack Developer
 
@@ -291,9 +292,11 @@ Some of the engineering challenges included:
 
 # 🌐 Connect With Me
 
-- 💼 **LinkedIn:** https://www.linkedin.com/in/shivam-vishwakarma-932166371/
+💼 **LinkedIn**  
+[Shivam Vishwakarma](https://www.linkedin.com/in/shivam-vishwakarma-932166371/)
 
-- 🌍 **Live Demo:** https://lab-doc-ai.vercel.app/
+🌍 **Live Website**  
+[lab-doc-ai.vercel.app](https://lab-doc-ai.vercel.app)
 
 ---
 
