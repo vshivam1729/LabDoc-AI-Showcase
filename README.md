@@ -2,7 +2,7 @@
 
 # 🚀 LabDoc AI 2.0
 
-### *AI-Powered Automated Document Processing Infrastructure for Engineering Students*
+### *Automated Practical File Formatting Platform for Engineering Students*
 
 <p align="center">
   <a href="https://lab-doc-ai.vercel.app/">
@@ -14,246 +14,308 @@
   <img src="https://img.shields.io/badge/Docker-Cloud_Runtime-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
 </p>
 
-### ⚡ Transform messy practical files into print-ready PDFs in 20 seconds.
+### ⚡ Transform practical files into official TCET print-ready documents in seconds.
 
-### 📱 Mobile-First • 🏫 11+ Departments Supported • 📄 Dynamic Headers & Footers
+### 📱 Mobile-First • 🏫 Supports All 11 TCET Departments • 📄 Header • Faculty Table • Watermark • Footer
 
 </div>
 
 ---
 
-## ✨ Preview (Watch it in Action)
+# ✨ Preview (Watch it in Action)
 
 <div align="center">
-  <video src="https://github.com/user-attachments/assets/1668e5dc-3250-45a1-becc-938236b7b356" width="280" controls></video>
+  <video src="YOUR_LATEST_VIDEO_LINK_HERE" width="280" controls></video>
 </div>
 
-> ⚡ Upload your `.docx` from your phone → Select your Branch → LabDoc AI auto-fixes formatting → Get **college-ready PDF in 20 seconds!**
+> ⚡ Upload your practical file → Select your department → Choose formatting options → Download a print-ready document in seconds.
 
 ---
 
-# 🚨 The Genesis: The 10:40 AM Panic
+# 🚨 The Story Behind LabDoc AI
 
-Every engineering student knows this exact struggle.
+Two months ago, I was standing outside a stationery shop with a practical file that was technically complete—but still not ready to print.
 
-It’s **10:40 AM**. Submission is at **11:00 AM**. The queue for the college lab dot-matrix printer is a mile long.
-The only backup? Running to the local stationery shop to print.
+The experiment was finished.
 
-But local shops only have **plain A4 paper**, not the official pre-printed **"Thakur Sheets"** with college logos.
+The content was correct.
 
-Rushing to print here brings **massive roadblocks**:
+But I was still spending valuable time manually fixing headers, watermarks, and formatting just minutes before submission.
 
-1. 🧩 **The Manual Struggle:**
-   Manually inserting the college watermark, aligning it without breaking Word formatting, and exporting as PDF burns **10–15 precious minutes**.
+That 15-minute frustration made me ask one simple question:
 
-2. 🕰️ **Outdated Formats:**
-   Standard experiment templates still carry the old 2019 headers.
+> **Why are engineering students still doing this manually?**
 
-3. 📝 **Repetitive Typing:**
-   Typing out Name, Class, and Roll Number on the footer of every single page manually.
+So I built a small automation tool for a few classmates.
 
----
+Honestly, I expected around **10–15 students** to use it.
 
-# 🚀 The Evolution: LabDoc AI 2.0
+Instead, within **48 hours**, over **164 students** tried it, generating **365+ page views** and **2,300+ LinkedIn impressions**.
 
-What started as a quick fix for the "10:40 AM panic" has now evolved into a **College-Wide Document Processing Engine**.
+That response made one thing clear.
 
-Instead of booting up a laptop, you can stand right outside the stationery shop, use your phone, and get a **print-ready PDF in just 20 seconds**.
+The problem wasn't just mine.
 
----
+It was shared by students across the college.
 
-## 🌟 What's New in V2.0? (The Game Changers)
+The only limitation?
 
-### 🏢 1. Massive Multi-Department Expansion
+Version 1 supported only the **Computer Engineering department**.
 
-LabDoc AI is no longer just for Computer Engineering. It now features dynamic backend routing that automatically injects the **official headers** for **11 distinct engineering branches** based on user selection:
+So LabDoc AI was completely rebuilt from the ground up.
 
-* 💻 Computer Engineering (COMP)
-* 🌐 Information Technology (IT)
-* 🧠 AI & Data Science (AIDS)
-* 🤖 AI & Machine Learning (AIML)
-* 🛡️ Cyber Security
-* 📡 Internet of Things (IoT)
-* 📡 Electronics & Telecom (E&TC)
-* ⚡ Computer Science & Electronic (E&CS)
-* ⚙️ Mechanical Engineering
-* 🔧 Mechatronics (Additive Mfg)
-* 🏗️ Civil Engineering
+Today, **LabDoc AI 2.0** supports **all 11 engineering departments at TCET**, allowing students to prepare official practical files directly from their phones in just a few seconds.
 
+No more last-minute formatting panic.
 
+Just **Upload → Select Options → Process → Download.**
 
 ---
 
-### ✒️ 2. Auto-Footer Generation & Pagination
+## 🌟 What's New in LabDoc AI 2.0
 
-No more typing your details on every page.
-
-Toggle **"Add Document Footer"**, enter your details once, and the engine dynamically calculates the document canvas, expands the bottom margins, and injects:
-
-`[Name] | [Class] | [Roll No] | Pg: [Auto-Incrementing Page Number]`
-
-...safely without breaking any existing text!
+LabDoc AI has evolved from a simple formatting utility into a complete **document automation platform** built specifically for TCET students.
 
 ---
 
-### 📱 3. "Premium Glassmorphism" Mobile UI
+### 🏫 1. College-Wide Multi-Department Support
 
-Rebuilt the frontend using the **"Progressive Disclosure" (Glow & Lock)** UI pattern.
+LabDoc AI now supports **all 11 engineering departments** at TCET.
 
-Users are guided smoothly:
+Simply choose your department and the processing engine automatically applies the correct official formatting resources.
 
-1. Upload file
-2. Department dropdown glows
-3. Everything else remains securely locked
-4. Select department → Smooth unlock of all formatting toggles
+Supported Departments:
+
+- 💻 Computer Engineering (COMP)
+- 🌐 Information Technology (IT)
+- 🧠 AI & Data Science (AIDS)
+- 🤖 AI & Machine Learning (AIML)
+- 🛡️ Cyber Security
+- 📡 Internet of Things (IoT)
+- 📡 Electronics & Telecommunication (E&TC)
+- ⚡ Computer Science & Engineering (E&CS)
+- ⚙️ Mechanical Engineering
+- 🔧 Mechatronics (Additive Manufacturing)
+- 🏗️ Civil Engineering
 
 ---
+
+### 👨‍🏫 2. Smart Faculty Table Generator
+
+No more manually creating or editing faculty approval tables.
+
+LabDoc AI automatically inserts the **official department-specific faculty table**, ensuring documents follow the required college format without additional editing.
+
+---
+
+### ✒️ 3. Automatic Footer & Pagination
+
+Instead of manually typing your details on every page, simply enable **"Add Document Footer"** and enter your information once.
+
+The engine automatically expands the document canvas and inserts:
+
+`Name | Class | Roll Number | Auto Page Number`
+
+without disturbing the existing document layout.
+
+---
+
+### 📱 4. Mobile-First Experience
+
+LabDoc AI is designed to work seamlessly on mobile devices.
+
+The interface follows a **Progressive Disclosure** workflow that guides users step-by-step:
+
+1. Upload your file
+2. Select your department
+3. Choose formatting options
+4. Process & download
+
+This allows students to generate print-ready documents directly from their phones—even while standing outside the print shop.
 
 # 🔥 Core Engine Features
 
-### 📏 Smart Header Injection
+### 📏 Smart Header Injection Engine
 
-* Removes legacy / broken headers safely by parsing deep `.docx` XML
-* Injects standardized 2023 college-approved headers based on branch
-* Seamlessly compensates geometry (Top/Bottom Margins) to prevent text overflow
+The document engine safely parses the internal DOCX XML structure, removes outdated or incompatible headers, and injects the latest **official TCET department header** without disturbing the existing document layout.
 
----
+**Highlights**
 
-### 💧 Pixel-Perfect Watermark Engine
-
-* Intelligent RGB thresholding `>240`
-* Applies **45% translucent watermark underlay**
-* Keeps text **100% crisp black** without layout breaking
+* Automatic legacy header replacement
+* Department-wise dynamic header routing
+* Margin geometry compensation to prevent content shifting
+* Preserves original document formatting
 
 ---
 
-### 📄 Cloud PDF Conversion
+### 👨‍🏫 Smart Faculty Table Generator
 
-* Dockerized **headless LibreOffice**
-* Reliable `.docx → .pdf` auto-conversion
-* Handles heavy & compressed files (Built-in WPS rescue logic)
+Faculty approval tables are generated automatically based on the selected department.
+
+Instead of manually creating or editing tables before printing, LabDoc AI inserts the **official department-specific faculty table** with proper alignment and spacing.
+
+**Highlights**
+
+* Official TCET faculty table layouts
+* Department-aware table selection
+* Automatic placement without affecting document content
 
 ---
+
+### ✒️ Intelligent Footer & Pagination Engine
+
+Generate professional document footers with a single click.
+
+The engine dynamically expands the document canvas and inserts:
+
+`Name • Class • Roll Number • Auto Page Number`
+
+while maintaining proper spacing and preventing content overlap.
+
+**Highlights**
+
+* Dynamic page numbering
+* Automatic margin adjustment
+* Layout-safe footer injection
+
+---
+
+### 💧 Smart Watermark Processing
+
+The watermark engine intelligently analyses document pixels before applying the official college watermark.
+
+Instead of simply overlaying an image, the engine preserves document readability while maintaining professional print quality.
+
+**Highlights**
+
+* Intelligent RGB threshold detection
+* 45% translucent watermark rendering
+* Maintains crisp document text
+* Print-friendly output
+
+---
+
+### 📄 Cloud PDF Processing Pipeline
+
+LabDoc AI automatically converts and processes documents using a Dockerized LibreOffice runtime.
+
+The pipeline supports both DOCX and PDF workflows while handling large files reliably.
+
+**Highlights**
+
+* Reliable DOCX → PDF conversion
+* Dockerized headless LibreOffice
+* Supports DOCX and PDF workflows
+* Built-in compatibility handling for complex documents
+
+---
+
+## ⚡ Average Processing Time
+
+| Operation | Average Time |
+|-----------|-------------:|
+| DOCX → DOCX Formatting | **3–5 sec** |
+| PDF → PDF Processing | **5–10 sec** |
+| DOCX → PDF Conversion | **15–20 sec** |
+
+> Processing time may vary depending on document size and system load.
+
+---
+
+## 📊 Early Impact (Version 1)
+
+| Metric | Result |
+|--------|-------:|
+| 👥 Unique Users | **164+** |
+| 📄 Page Views | **365+** |
+| 📢 LinkedIn Impressions | **2,300+** |
+| 🏫 Departments Supported (V2) | **11** |
 
 # ⚙️ Advanced System Architecture
 
 ```mermaid
 flowchart TD
-    subclass_UI[📱 Mobile-First Frontend]
-    
-    A[📤 User Uploads DOCX/PDF] -->|Multipart Form + Branch Data| subclass_UI
-    subclass_UI -->|API Request| B[⚡ FastAPI Backend]
-    
-    B --> C{🔍 File Type Check?}
-    
-    C -->|DOCX| D[🧠 python-docx XML Engine]
-    C -->|PDF| E[📄 PyMuPDF Engine]
-    
-    D --> F[📏 Dynamic Header Router]
-    F -->|Fetch based on Branch| G[(Assets DB: 11+ Headers)]
-    
-    D --> H[✂️ Margin Geometry Fixer]
-    H --> I[✒️ DOCX Footer Injector]
-    
-    I --> J[🐳 LibreOffice Headless Docker]
-    J -->|Convert| E
-    
-    E --> K[💧 Watermark Overlay/Underlay Logic]
-    K --> L[✒️ PDF Canvas Expander & Footer Generator]
-    
-    L --> M[✅ Final Print Ready Document]
-    M -->|Stream Response| subclass_UI
+
+    A[📤 User Uploads DOCX / PDF]
+    A --> B[📱 Next.js Frontend]
+
+    B -->|Multipart Request + Selected Options| C[⚡ FastAPI Backend]
+
+    C --> D{📄 File Type?}
+
+    %% ---------------- DOCX PIPELINE ----------------
+
+    D -->|DOCX| E[🧠 python-docx Processing Engine]
+
+    E --> F[📏 Header Injection Engine]
+
+    F --> G[(🏫 Department Assets)]
+
+    G --> H[👨‍🏫 Faculty Table Generator]
+
+    H --> I[✒️ Footer & Pagination Engine]
+
+    I --> J[📐 Margin Geometry Optimizer]
+
+    J --> K[🐳 LibreOffice Headless]
+
+    K --> L[📄 PDF Generation]
+
+    %% ---------------- PDF PIPELINE ----------------
+
+    D -->|PDF| M[📄 PyMuPDF Processing Engine]
+
+    %% ---------------- COMMON PIPELINE ----------------
+
+    L --> N[💧 Watermark Engine]
+
+    M --> N
+
+    N --> O[✅ Final Print-Ready Document]
+
+    O --> P[⬇️ Download Response]
 ```
 
----
+# 🛠️ Technology Stack
 
-# 🛠️ Tech Stack
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=nextjs,react,tailwind,fastapi,python,docker,git,github,vscode" />
+</p>
 
-| Layer      | Technology                                            |
-| ---------- | ----------------------------------------------------- |
-| Frontend   | React, Next.js, Tailwind CSS, Shadcn UI, Lucide Icons |
-| Backend    | FastAPI, Uvicorn, Python 3.10+                        |
-| Processing | python-docx, PyMuPDF (fitz), Pillow (PIL)             |
-| Conversion | LibreOffice Headless CLI                              |
-| Deployment | Docker (Render), Vercel                               |
-
----
-
-# 💻 Local Setup
-
-## 🔹 Clone Repository
-
-```bash
-git clone https://github.com/vshivam1729/LabDoc-AI.git
-cd LabDoc-AI
-```
-
-## 🔹 Backend Setup
-
-```bash
-cd backend
-python -m venv venv
-```
-
-### ▶️ Activate Virtual Environment
-
-* Windows:
-
-  ```bash
-  venv\Scripts\activate
-  ```
-
-* Linux / Mac:
-
-  ```bash
-  source venv/bin/activate
-  ```
-
-### ▶️ Install Dependencies & Run
-
-```bash
-pip install -r requirements.txt
-uvicorn main:app --reload
-```
-
----
-
-## 🔹 Frontend Setup
-
-```bash
-cd frontend
-npm install
-npm run dev
-```
-
----
-
-# 🌟 Why This Project Stands Out
-
-This is not just a CRUD application. It demonstrates:
-
-* 🧠 Real-world Product Thinking
-* 📐 Deep Document Engineering
-* 📱  UX Design
-* ⚙️ Robust Backend Architecture
+| Layer | Technologies |
+|--------|--------------|
+| **Frontend** | Next.js, React, Tailwind CSS, Shadcn UI, Lucide Icons |
+| **Backend** | FastAPI, Uvicorn, Python 3.10+ |
+| **Document Processing** | python-docx, PyMuPDF (fitz), Pillow (PIL) |
+| **Document Conversion** | LibreOffice Headless |
+| **Deployment** | Vercel, Docker, Render |
 
 ---
 
 # 👨‍💻 Developed By
 
-**Shivam Vishwakarma** <br>
-🚀 2nd-year Computer Engineering Student <br>
-💻 Full Stack Developer <br>
-⚡ Building real-world scalable solutions
+**Shivam Vishwakarma**
+
+🚀 3rd Year Computer Engineering Student (TCET)
+
+💻 Full Stack Developer
+
+⚡ Passionate about building real-world software that solves practical problems through automation.
 
 ---
 
 # 🌐 Connect With Me
 
-* 💼 LinkedIn: [Shivam Vishwakarma](https://www.linkedin.com/in/shivam-vishwakarma-932166371/)
-* 🔴 Live Demo: [LabDoc AI](https://lab-doc-ai.vercel.app/)
+- 💼 **LinkedIn:** https://www.linkedin.com/in/shivam-vishwakarma-932166371/
+
+- 🌍 **Live Demo:** https://lab-doc-ai.vercel.app/
 
 ---
 
-⭐ If this project impressed you, please star the repo!
-Your one ⭐ motivates more real-world builds. 🚀
+<div align="center">
+
+### ⭐ If you found this project interesting, consider giving it a Star!
+
+Your support motivates me to keep building practical software that solves real-world problems.
+
+</div>
