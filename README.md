@@ -31,7 +31,7 @@
 # 🎥 Demo
 
 <div align="center">
-  <video src="https://github.com/user-attachments/assets/1e964672-7c13-4dc2-8dcd-706832215e1e" width="280" controls></video>
+<video src="https://lab-doc-ai.vercel.app/demovideo.mp4" width="280" controls></video>
 </div>
 
 > ⚡ Upload → Select Department → Process → Download
@@ -101,6 +101,17 @@ Designed to work seamlessly on mobile devices, allowing students to prepare prac
 
 ---
 
+### 🌐 5. Web Platform Features (PWA)
+
+LabDoc AI features a clean, app-like minimal interface with several built-in resources for users.
+
+- **Progressive Web App (PWA):** Installable on Android, iOS, and Desktop directly from the browser for quick access.
+- **Dedicated Hub:** Includes dedicated built-in sections for *About, FAQ, Features, and Live Statistics*.
+- **Live Statistics:** Real-time metrics dashboard showcasing processing speeds and usage data.
+- **Dark Mode:** System-wide dark mode support for comfortable viewing.
+- **AI/SEO Optimized:** Powered by extensive Knowledge Graph (JSON-LD) schemas, making it fully indexable by Google Search and AI SGE models.
+
+---
 
 # 🔥 Core Engine Features
 
@@ -135,6 +146,7 @@ Automatically adds a footer containing Name, Class, Roll Number and Page Number 
 
 **Highlights**
 
+* **Automatic legacy footer replacement (Removes outdated footers)**
 * Dynamic page numbering
 * Automatic margin adjustment
 * Layout-safe footer injection
@@ -170,9 +182,9 @@ Processes DOCX and PDF files using a Dockerized LibreOffice runtime for reliable
 
 | Operation | Average Time |
 |-----------|-------------:|
-| DOCX → DOCX Formatting | **3–5 sec** |
-| PDF → PDF Processing | **5–10 sec** |
-| DOCX → PDF Conversion | **15–20 sec** |
+| DOCX → DOCX Formatting | **0.7 sec** |
+| PDF → PDF Processing | **2.87 sec** |
+| DOCX → PDF Conversion | **17.7 sec** |
 
 > Processing time may vary depending on document size and system load.
 
