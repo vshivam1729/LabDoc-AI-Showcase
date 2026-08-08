@@ -31,7 +31,7 @@
 # 🎥 Demo
 
 <div align="center">
-<video src="https://lab-doc-ai.vercel.app/demovideo.mp4" width="280" controls></video>
+<video src="https://github.com/user-attachments/assets/bda08e82-6bd7-41c0-bbc9-e842f339abec" width="280" controls></video>
 </div>
 
 > ⚡ Upload → Select Department → Process → Download
@@ -155,14 +155,15 @@ Automatically adds a footer containing Name, Class, Roll Number and Page Number 
 
 ### 💧 Smart Watermark Processing
 
-Applies the official TCET watermark while preserving document readability and print quality.
+Applies the official TCET watermark while preserving document readability and print quality. Features a highly advanced detection algorithm to safely remove old watermarks without affecting existing text or layout.
 
 **Highlights**
 
+* **Automatic legacy watermark replacement (DOCX)**
+* Safe removal of overlapping/outdated background logos
 * Intelligent RGB threshold detection
 * 45% translucent watermark rendering
 * Maintains crisp document text
-* Print-friendly output
 
 ---
 
